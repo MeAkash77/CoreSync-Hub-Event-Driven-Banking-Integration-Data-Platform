@@ -1,0 +1,68 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore Go executables
+/build/
+api
+consumer
+producer
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go modules
+go.mod
+go.work
+
+# Dependency directories
+vendor/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Compiled binaries
+/producer
+/consumer
+/api
+/cmd/producer/producer
+/cmd/consumer/consumer
+/cmd/api/api
+
+# Docker
+.dockerignore
+
+# Temporary files
+tmp/
+temp/
+
+# Python pycache
+__pycache__
+
+# Python virtual environment
+fraud-detection/venv/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
