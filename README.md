@@ -1,4 +1,4 @@
-# 🏦 FlowBank
+# 🏦 FlowBank - CoreSync-Hub-Event-Driven-Banking-Integration-Data-Platform
 
 A miniature event-driven transaction processor inspired by Monzo, built with Go, Kafka (RedPanda), Python, and PostgreSQL. Deployed to AWS.
 
